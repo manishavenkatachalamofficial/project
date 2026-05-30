@@ -1,0 +1,94 @@
+/* ===== BODY ===== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,#ffe6f0,#fff5e6);
+    text-align:center;
+}
+
+/* ===== MAIN TITLE ===== */
+
+h1{
+    background:#ff4d88;
+    color:white;
+    padding:20px;
+    margin:0;
+    font-size:40px;
+    letter-spacing:2px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== NAVIGATION ===== */
+
+a{
+    text-decoration:none;
+    color:white;
+    background:#ff66a3;
+    padding:10px 20px;
+    margin:10px;
+    display:inline-block;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+a:hover{
+    background:#ff1a75;
+    transform:scale(1.1);
+}
+
+/* ===== SECTION TITLE ===== */
+
+h2{
+    color:#cc0066;
+    margin-top:30px;
+    font-size:32px;
+}
+
+/* ===== TABLE ===== */
+
+table{
+    margin:30px auto;
+    border-collapse:collapse;
+    width:70%;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== TABLE HEAD ===== */
+
+th{
+    background:#ff4d88;
+    color:white;
+    padding:15px;
+    font-size:22px;
+}
+
+/* ===== TABLE DATA ===== */
+
+td{
+    padding:15px;
+    font-size:20px;
+    color:#444;
+}
+
+/* ===== ROW HOVER ===== */
+
+tr:hover{
+    background:#ffe6f0;
+    transition:0.3s;
+}
+
+/* ===== LINE ===== */
+
+hr{
+    border:0;
+    height:2px;
+    background:#ff99c2;
+    margin:20px 0;
+}

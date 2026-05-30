@@ -1,0 +1,108 @@
+/* ===== BODY ===== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,#fff0f5,#ffe6cc);
+    text-align:center;
+}
+
+/* ===== HEADER ===== */
+
+h1{
+    background:#ff4d88;
+    color:white;
+    padding:20px;
+    margin:0;
+    font-size:40px;
+    letter-spacing:2px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== NAVIGATION ===== */
+
+a{
+    text-decoration:none;
+    color:white;
+    background:#ff66a3;
+    padding:10px 20px;
+    margin:10px;
+    display:inline-block;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+a:hover{
+    background:#ff1a75;
+    transform:scale(1.1);
+}
+
+/* ===== SECTION TITLE ===== */
+
+h2{
+    color:#cc0066;
+    margin-top:30px;
+    font-size:34px;
+}
+
+/* ===== PARAGRAPH ===== */
+
+p{
+    font-size:22px;
+    color:#444;
+    margin-top:20px;
+}
+
+/* ===== CART BOX ===== */
+
+ul{
+    list-style:none;
+    padding:20px;
+    width:350px;
+    margin:30px auto;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ===== CART ITEMS ===== */
+
+li{
+    background:#ffe6f0;
+    margin:15px 0;
+    padding:15px;
+    border-radius:12px;
+    font-size:20px;
+    color:#cc0066;
+    transition:0.3s;
+}
+
+li:hover{
+    background:#ffb3d1;
+    transform:scale(1.05);
+}
+
+/* ===== TOTAL PRICE ===== */
+
+p:last-of-type{
+    background:#ff4d88;
+    color:white;
+    display:inline-block;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:24px;
+    font-weight:bold;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* ===== LINE ===== */
+
+hr{
+    border:0;
+    height:2px;
+    background:#ff99c2;
+    margin:20px 0;
+}

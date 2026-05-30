@@ -1,0 +1,80 @@
+/* ===== BODY ===== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right,#ffe6f0,#fff0e6);
+    text-align:center;
+}
+
+/* ===== HEADER ===== */
+
+h1{
+    background:#ff4d88;
+    color:white;
+    padding:20px;
+    margin:0;
+    font-size:40px;
+    letter-spacing:2px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== NAVIGATION ===== */
+
+a{
+    text-decoration:none;
+    color:white;
+    background:#ff66a3;
+    padding:10px 20px;
+    margin:10px;
+    display:inline-block;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+a:hover{
+    background:#ff1a75;
+    transform:scale(1.1);
+}
+
+/* ===== CONTACT TITLE ===== */
+
+h2{
+    color:#cc0066;
+    margin-top:40px;
+    font-size:35px;
+}
+
+/* ===== CONTACT DETAILS ===== */
+
+p{
+    width:350px;
+    margin:20px auto;
+    background:white;
+    padding:18px;
+    border-radius:15px;
+    font-size:22px;
+    color:#444;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+/* ===== HOVER EFFECT ===== */
+
+p:hover{
+    background:#ffe6f0;
+    transform:scale(1.05);
+    color:#cc0066;
+}
+
+/* ===== LINE ===== */
+
+hr{
+    border:0;
+    height:2px;
+    background:#ff99c2;
+    margin:20px 0;
+}
