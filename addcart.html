@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Gift World - Add Cart</title>
+ <link rel="stylesheet" href="addcard.css">
 </head>
 
 <body>
@@ -20,13 +21,37 @@
 <h2>Add Cart</h2>
 
 <p>Your selected items:</p>
+<div border="1">
 
-<ul>
-<li>Teddy Bear - ₹500</li>
-<li>Chocolate Box - ₹300</li>
-</ul>
+    <img src="teddy.webp" width="200" border="3">
+    <h2>Teddy Bear</h2>
+    <h3>Price : ₹500</h3>
+    <button>Add To Cart</button>
 
-<p>Total = ₹800</p>
+    <hr>
 
+    <img src="flower.webp" width="200" border="3">
+    <h2>Flower Bouquet</h2>
+    <h3>Price : ₹700</h3>
+    <button>Add To Cart</button>
+
+    <hr>
+
+    <img src="CHOCO.webp" width="200" border="3">
+    <h2>Chocolate Box</h2>
+    <h3>Price : ₹300</h3>
+    <button>Add To Cart</button>
+    <hr>
+
+</div>
+<h3>Items: <span id="count">0</span></h3>
+<h3>Total Amount: ₹<span id="total">0</span></h3>
+
+<button onclick="
+count.innerHTML = Number(count.innerHTML) + 1;
+total.innerHTML = Number(total.innerHTML) + 500;
+">
+Add To Cart
+</button>
 </body>
 </html>
